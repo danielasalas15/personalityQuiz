@@ -1,0 +1,65 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: 'Raleway', sans-serif;
+ 
+  background-image: linear-gradient( #FFF7EB, #FBEEF8, #EDF6FD)
+  
+  
+}
+
+/* STYLE TEXT */
+header {
+  font-family: 'Raleway', sans-serif;
+  color: #B54098;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+/* STYLE BUTTON */
+.buttons { 
+  padding: 1em;
+  background-color: #B54098;
+  margin-top: 2em;
+  border-radius: 12px;
+  color: white;
+  font-size: 14px;
+  border-color: white;
+}
+
+main{
+  font-size: 16px;
+  padding-top: 2em;
+  color: #0A385C;
+  font-weight: 1em;
+  margin-left: 8%;
+  margin-right: 12%
+  
+}
+#restart{
+  margin-bottom: 5%;
+}
+h2{
+  font-size: 21px;
+  text-align: left;
+}
